@@ -17,6 +17,8 @@ by Casey Layne Hyne
 
 ## Usage
 
+* LOGIN TESTING CREDENTIALS: email: john@email.com  pw: john12345
+
 Web Application Usage: 
 * Ensure "/login" route is the starting route and login with provided details.
 * From there you will be presented with you MiBudget homepage.
