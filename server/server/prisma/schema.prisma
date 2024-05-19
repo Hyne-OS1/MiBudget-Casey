@@ -1,0 +1,69 @@
+
+generator client {
+  provider      = "prisma-client-js"
+  binaryTargets = ["native", "debian-openssl-1.0.x"]
+}
+
+datasource db {
+  provider = "mongodb"
+  url      = env("DATABASE_URL")
+}
+
+model UserSettings {
+  id       String @id @default(uuid()) @map("_id")
+  currency String
+  name     String
+  email    String
+  password String
+}
+
+model Category {
+  createdAt DateTime @default(now())
+  name      String
+  userId    String   @id @map("_id")
+  icon      String
+  type      String   @default("income")
+}
+
+model Transaction {
+  id        String   @id @default(uuid()) @map("_id")
+  createdAt DateTime @default(now())
+  updateAt  DateTime @default(now())
+
+  amount      Float
+  description String
+  date        DateTime
+  userId      String
+  // only income or expense allowed
+  type        String   @default("income")
+
+  category     String
+}
+
+model MonthHistory {
+  id      String @id @default(uuid()) @map("_id")
+  userId  String
+  day     Int
+  month   Int
+  year    Int
+  income  Float
+  expense Float
+}
+
+model YearHistory {
+  id      String @id @default(uuid()) @map("_id")
+  userId  String
+  month   Int
+  year    Int
+  income  Float
+  expense Float
+
+  @@unique([userId, month, year])
+}
+model Budget {
+  id        String @id @default(uuid()) @map("_id")
+  userId    String
+  amount    Float
+  startDate DateTime
+  endDate   DateTime
+}
