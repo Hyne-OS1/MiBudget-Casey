@@ -18,6 +18,7 @@ by Casey Layne Hyne
 ## Usage
 
 * LOGIN TESTING CREDENTIALS: email: john@email.com  pw: john12345
+* IMPORTANT: ensure provided starting route before attempting to use application => "http://localhost:5173/login"
 
 Web Application Usage: 
 * Ensure "/login" route is the starting route and login with provided details.
