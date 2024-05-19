@@ -4,10 +4,10 @@ by Casey Layne Hyne
 
 ## Screenshots
 
-![MiBudget Login](https://github.com/Hyne-OS1/MiBudget/assets/146906218/c0b8f3a3-472d-4de1-86c2-1632e44710b7)
-![mibudget main](https://github.com/Hyne-OS1/MiBudget/assets/146906218/aa32cf6e-3c8e-42dc-8db2-e2bf2b64b4f1)
-![MiBudget Main white](https://github.com/Hyne-OS1/MiBudget/assets/146906218/b0a2dbf8-a063-4434-93c6-e9510f4b8b59)
-![Midbuget expenses](https://github.com/Hyne-OS1/MiBudget/assets/146906218/b5f60dc3-1576-4b10-8b33-42411b5d5691)
+![MiBudget Login](https://github.com/Hyne-OS1/MiBudget-Casey/assets/146906218/f7358b60-ff06-42fd-a19d-9ca21fee4f26)
+![mibudget main](https://github.com/Hyne-OS1/MiBudget-Casey/assets/146906218/3763adb8-e07d-4261-a35a-870c2f022ed4)
+![MiBudget Main white](https://github.com/Hyne-OS1/MiBudget-Casey/assets/146906218/b11ac101-edb8-48e3-8ce9-4490e2be7ac0)
+![Midbuget expenses](https://github.com/Hyne-OS1/MiBudget-Casey/assets/146906218/04a28c79-6e7e-42d2-85ed-ed9e4406a725)
 
 
 ## Description
